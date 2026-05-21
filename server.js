@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const db = require('./database');
 
-const indexHtmlFile = fs.readFileSync(path.join(__dirname, 'static', 'index.html'));
+const indexHtmlFile = fs.readFileSync(path.join(__dirname, 'static/index.html'));
 const scriptFile = fs.readFileSync(path.join(__dirname, 'static', 'script.js'));
 const styleFile = fs.readFileSync(path.join(__dirname, 'static', 'style.css'));
 const registerFile = fs.readFileSync(path.join(__dirname, 'static', 'register.html'));
